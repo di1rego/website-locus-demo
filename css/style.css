@@ -1,0 +1,84 @@
+@import url("components/header.css");
+@import url("components/cover.css");
+@import url("components/works.css");
+
+@font-face {
+    font-family: "Poppins-Regular", sans-serif;
+    src: url("../source/fonts/Poppins/Poppins-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Medium", sans-serif;
+    src: url("../source/fonts/Poppins/Poppins-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold", sans-serif;
+    src: url("../source/fonts/Poppins/Poppins-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Bold", sans-serif;
+    src: url("../source/fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBold", sans-serif;
+    src: url("../source/fonts/Poppins/Poppins-ExtraBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: "Poppins-Regular", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1em;
+    color: #000;
+    height: 100vh;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* user-select: none; */
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+:root {
+    --dark-green: #58A9A5;
+    --light-green: #CCF0E6;
+    --yellow: #FEC62D;
+    --t4s: all .4s ease-out;
+    --fs19-16: calc(16px + (19 - 16) * ((100vw - 320px) / (1440 - 320)));
+}
